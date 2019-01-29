@@ -1,0 +1,21 @@
+import React from 'react'
+
+function Header() {
+  return (
+    <div>
+      <header style={headerStyle}>
+        <h1>
+          Todo List
+        </h1>
+      </header>
+    </div>
+  )
+}
+const headerStyle={
+  // background: 'Gray',
+  border: '2px solid DodgerBlue',
+  color: 'Black',
+  textAlign: 'center',
+  padding: '10px',
+}
+export default Header;
